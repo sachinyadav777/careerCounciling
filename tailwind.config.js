@@ -7,6 +7,11 @@ module.exports = {
     extend: {
       fontFamily: {
         plus: ["Plus Jakarta Sans", "sans-serif"]
+      },
+      colors: {
+        primary: '#e20935',
+        heading: '#16171a',
+        
       }
     },
   },
