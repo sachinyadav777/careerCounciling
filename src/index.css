@@ -1,3 +1,18 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .heading {
+       @apply text-heading text-5xl leading-[60px] font-semibold mt-2;
+    }
+    .sub-heading{
+        @apply text-text font-semibold leading-[14px] text-sm uppercase tracking-widest;
+    }
+    .text{
+        @apply text-text 
+    }
+  
+}

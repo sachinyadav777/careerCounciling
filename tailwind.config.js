@@ -6,13 +6,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        plus: ["Plus Jakarta Sans", "sans-serif"]
+        plus: ['"Plus Jakarta Sans"', 'sans-serif']
       },
       colors: {
         primary: '#e20935',
         heading: '#16171a',
+        text: '#727272',
+        back: '#f2edeb',
+        back: '#f2edeb'
         
-      }
+      },
     },
   },
   plugins: [],
