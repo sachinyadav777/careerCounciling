@@ -1,18 +1,64 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-    .heading {
-       @apply text-heading text-5xl leading-[60px] font-semibold mt-2;
-    }
-    .sub-heading{
-        @apply text-text font-semibold leading-[14px] text-sm uppercase tracking-widest;
-    }
-    .text{
-        @apply text-text 
-    }
+  .heading {
+    @apply text-heading text-5xl leading-[60px] font-semibold mt-2;
+  }
+
+  .sub-heading {
+    @apply text-text font-semibold leading-[14px] text-sm uppercase tracking-widest;
+  }
+
+  .text {
+    @apply text-text
+  }
+
+  .overflowHide {
+    @apply overflow-hidden ;
+
+  }
   
+
+  /* Animation for background color */
+  @keyframes fillBackground {
+    0% {
+      background-color: black;
+      /* Start color */
+      height: 0rem;
+    }
+
+    100% {
+      background-color: #ffffff;
+      /* End color */
+      height: 2.5rem;
+    }
+  }
+
+  .background {
+    animation: fillBackground 1s ease-in-out forwards;
+    /* Adjust duration and timing function */
+  }
+
+
+  /* Animation for menu bar */
+  @keyframes menuBar {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+
+      width: 60%;
+    }
+  }
+
+  .navanimate {
+    animation: menuBar 0.5s ease-in-out forwards;
+    /* Adjust duration and timing function */
+  }
+
+
+
 }

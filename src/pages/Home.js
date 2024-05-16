@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee , faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 import { Email } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
+import logo from '../assets/images/footer-logo.png'
 
 const Home = () => {
   return (
@@ -19,7 +21,8 @@ const Home = () => {
       <FontAwesomeIcon icon={faCoffee} classname= 'text-4xl' />
       <FontAwesomeIcon icon={faEnvelope} color='#e20935' bounce />
       <Email />
-    </div>
+      <a href={logo}>click me</a>
+       </div>
   )
 }
 
