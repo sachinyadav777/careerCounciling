@@ -73,7 +73,7 @@ const Footer = () => {
             <li >
               <Link to='' className='flex items-center mb-2 pb-2 text-primary'>
                 <FontAwesomeIcon icon={faEnvelope} />
-                <p className='text-text text-sm hover:text-white ease-in duration-75 ml-3'>sy396610@gmail.com</p>
+                <p className='text-text text-sm hover:text-white ease-in duration-75 ml-3'>sachinyadav@gmail.com</p>
               </Link>
             </li>
             <li className='flex items-center mb-2 pb-2 text-primary'>
