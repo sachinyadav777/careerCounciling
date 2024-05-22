@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
   return (
     <div className=' bg-heading font-plus'>
-      <div className='grid grid-flow-col p-20'>
+      <div className='sm:flex-1 p-[5%]'>
         <div className='p-2 m-2'>
           <img src={logo} alt="logo" className='pb-4 mb-4' />
           <p className='text-text pb-4 mb-4 text-sm'>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt.</p>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className='p-2 m-2'>
           <h3 className='text-white pb-4 mb-4 text-lg' >Gallary</h3>
-          <div className='grid grid-cols-3 gap-2'>
+          <div className='md:grid md:grid-cols-3 md:gap-2 flex flex-wrap'>
             <img src={img} alt="gallary" />
             <img src={img} alt="gallary" />
             <img src={img} alt="gallary" />
@@ -87,7 +87,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className='text-center bg-[#121315] py-10 px-20'>
+      <div className='text-center bg-[#121315] px-[5%] py-[2.5%]'>
         <p className='text-text text-base'>© All Copyright 2023 by Treck WordPress</p>
       </div>
     </div>
