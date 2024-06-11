@@ -9,8 +9,13 @@ import Blogs from './pages/Blogs';
 import Gallary from './pages/Gallary';
 import Contact from './pages/Contact';
 import Layout from './layouts/Layout';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    Aos.init();
+},[])
   return (
     <Layout>
       <Routes>

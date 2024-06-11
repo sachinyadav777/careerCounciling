@@ -1,28 +1,37 @@
 import React from 'react'
-import Buttons from '../components/Buttons'
-import UnderlineDecoration from '../components/UnderlineDecoration'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee , faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import Carausel from '../components/Carausel'
+import img1 from '../assets/images/backgroundImg1.jpeg'
+import img2 from '../assets/images/backgroundImg2.jpeg'
+import img3 from '../assets/images/backgroundImg3.png'
+import About from '../components/About'
 
-import { Email } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
-import logo from '../assets/images/footer-logo.png'
+const items = [
+  {
+    imageURL: img1,
+    para: "Working together for your better life",
+    heading1: "Struggling in life?",
+    heading2: "I can help.",
+  },
+  {
+    imageURL: img2,
+    para: "Working together for your better life",
+    heading1: "Struggling in life?",
+    heading2: "I can help.",
+  },
+  {
+    imageURL: img3,
+    para: "Working together for your better life",
+    heading1: "Struggling in life?",
+    heading2: "I can help.",
+  }
+]
 
 const Home = () => {
   return (
-    <div className='text-center'>
-      <h2 className='heading'>i am in home</h2>
-      <h2 className='sub-heading'>i am in home</h2>
-      <p className='text'>i am in home</p>
-      <Buttons text="Book Appointment" bgColor="primary" color="textWhite" afterBg="afterBgBlack" />
-      <Buttons text="Discover More" bgColor="white" color="textBlack" afterBg="afterBgBlack" hoverText='hoverTextWhite' />
-      <Buttons text="Discover More" bgColor="black" color="textWhite" afterBg="afterBgWhite" hoverText='hoverTextBlack' />
-      <UnderlineDecoration />
-      <FontAwesomeIcon icon={faCoffee} classname= 'text-4xl' />
-      <FontAwesomeIcon icon={faEnvelope} color='#e20935' bounce />
-      <Email />
-      <a href={logo}>click me</a>
-       </div>
+    <div>
+      <Carausel items={items} />
+      <About />
+    </div>
   )
 }
 

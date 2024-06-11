@@ -16,6 +16,9 @@ module.exports = {
         back: '#f2edeb'
         
       },
+      backgroundImage: {
+        'back-img': 'url("/src/assets/images/about-two-shape-1.png")'
+      }
     },
   },
   plugins: [],

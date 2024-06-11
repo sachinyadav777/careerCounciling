@@ -4,14 +4,17 @@
 
 @layer components {
   .heading {
-    @apply text-heading text-5xl leading-[60px] font-semibold mt-2;
+    @apply text-heading text-5xl leading-[60px] font-bold mt-2;
   }
 
   .sub-heading {
-    @apply text-text font-semibold leading-[14px] text-sm uppercase tracking-widest;
+    @apply text-text font-semibold leading-[14px] text-base uppercase tracking-widest;
   }
 
   .text {
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.4px;
     @apply text-text
   }
 
@@ -59,6 +62,41 @@
     /* Adjust duration and timing function */
   }
 
+/* animation for slider text */
+@keyframes textAnimate {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100%{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.textAnimate {
+  animation: textAnimate 700ms linear;
+}
+
+/* animation for slider button */
+@keyframes buttonAnimate {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100%{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.buttonAnimate {
+  animation: buttonAnimate 700ms linear ;
+}
 
 
 }
