@@ -32,7 +32,7 @@ const About = () => {
                         <h2 className='sub-heading py-2 my-2'>Career Counceler <span className='text-primary'>+</span>Motivational Speaker <span className='text-primary'>+</span>Life Coach</h2>
                     </div>
                     <div>
-                        <p className='text py-2'>Robin Sharma is considered to be one of the Top 5 Leadership Experts in the world as well as an internationally acclaimed bestselling author. His work is embraced by rock stars, royalty, billionaires and celebrity CEOs.</p>
+                        <p className='text py-2'>Arunendra Soni is considered to be one of the Top 5 Leadership Experts in the world as well as an internationally acclaimed bestselling author. His work is embraced by rock stars, royalty, billionaires and celebrity CEOs.</p>
                     </div>
                     <div>
                         <p className='text py-2'>Deeply passionate about helping children in need live happier, healthier lives, Robin founded The Robin Sharma Foundation for Children (RSFC) as a registered charitable foundation. With every copy of The 5AM Club sold, a portion of royalties goes to help children with leprosy. So when you win, they win.</p>
