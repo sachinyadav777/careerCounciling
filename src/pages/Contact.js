@@ -16,7 +16,7 @@ const Contact = () => {
             </a>
             <span className=" text-gray-500">/</span>
             <a href="#" className=" ml-3">
-              contact
+              contacts
             </a>
           </div>
         </div>
