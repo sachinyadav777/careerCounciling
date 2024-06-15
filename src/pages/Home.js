@@ -4,6 +4,8 @@ import img1 from '../assets/images/backgroundImg1.jpeg'
 import img2 from '../assets/images/backgroundImg2.jpeg'
 import img3 from '../assets/images/backgroundImg3.png'
 import About from '../components/About'
+import ServiceCard from '../components/ServiceCard'
+import Service from '../components/Service'
 
 const items = [
   {
@@ -31,6 +33,7 @@ const Home = () => {
     <div>
       <Carausel items={items} />
       <About />
+      <Service />
     </div>
   )
 }

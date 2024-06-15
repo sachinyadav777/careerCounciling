@@ -8,7 +8,7 @@
   }
 
   .sub-heading {
-    @apply text-text font-semibold leading-[14px] text-base uppercase tracking-widest;
+    @apply text-text font-semibold leading-[14px] text-lg tracking-widest;
   }
 
   .text {
@@ -98,5 +98,43 @@
   animation: buttonAnimate 700ms linear ;
 }
 
+/* animation for background img */
+@keyframes backgroundAnimate {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(50px);
+  }
+}
+.backgroundAnimate{
+  animation: backgroundAnimate 7s ease-in-out infinite alternate;
+}
 
+/* animation for serviceCard */
+@keyframes serviceCardAnimate {
+  0%{
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    visibility: hidden;
+    transform: translate(-50% , -50%) scale(0);
+  }
+  100%{
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+   transform: translate(-50% , -50%) scale(1);
+   visibility: visible;
+  }
+}
+.serviceCardAnimate{
+  animation: serviceCardAnimate 1s ease-in-out forwards ;
+}
+}
+
+.slick-slide > div {
+  margin: 0 10px;
 }
