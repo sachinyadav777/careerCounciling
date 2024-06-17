@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import logo from '../assets/images/footer-logo.png'
 import img from '../assets/images/footer-img.jpg'
 import { Link } from 'react-router-dom'
