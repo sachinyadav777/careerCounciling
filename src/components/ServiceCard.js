@@ -21,7 +21,8 @@ const ServiceCard = ({items}) => {
             <div className='bg-white p-10 pb-2 pt-28 -mt-24'>
                 <div>
                     <h1
-                        className='h-[82px] flex justify-center items-center font-bold sub-heading text-2xl text-black py-2 my-2 border-b-2 border-b-text relative after:absolute after:border-t-[6px] after:border-l-[8px] after:border-r-[8px] after:border-b-[8px] after:border-l-transparent after:border-r-transparent after:border-b-transparent after:border-t-text after:bottom-[-15px] after:bottom-0 after:left-2/4 after:-translate-x-2/4'>
+                        className='h-[82px] flex justify-center items-center font-bold sub-heading text-2xl text-black py-2 my-2 border-b-2 border-b-text relative 
+                        after:absolute after:border-t-[6px] after:border-l-[8px] after:border-r-[8px] after:border-b-[8px] after:border-l-transparent after:border-r-transparent after:border-b-transparent after:border-t-text after:bottom-[-15px] after:left-2/4 after:-translate-x-2/4'>
                         {items.heading}</h1>
                     <p className='h-[104px] overflow-hidden text mt-2 pt-2'>{items.para}</p>
                 </div>
