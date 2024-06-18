@@ -12,7 +12,7 @@ const BlogCard = ({ items }) => {
           <img className='w-full group-hover:scale-110 ease-in duration-500' src={items.imgUrl} alt="blogs" />
           <div
             className=' z-10 absolute bottom-0 left-10 w-24 h-12 bg-primary text-2xl font-bold text-white flex justify-center items-center
-        before:absolute before:border-t-[23px] before:border-l-[13px] before:border-r-[15px] before:border-b-[25px] before:border-l-transparent before:border-r-[#d1062f] before:border-b-[#d1062f] before:border-t-transparent before:bottom-0  before:-left-7'
+        before:absolute before:border-t-[24px] before:border-l-[14px] before:border-r-[14px] before:border-b-[24px] before:border-l-transparent before:border-r-[#d1062f] before:border-b-[#d1062f] before:border-t-transparent before:bottom-0  before:left-[-27px]'
           >{items.date}</div>
           <div
             className='absolute top-0 bottom-0 left-0 right-0 bg-[#00000070] flex justify-center items-center
