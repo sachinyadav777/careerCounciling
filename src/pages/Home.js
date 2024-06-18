@@ -6,6 +6,7 @@ import img3 from '../assets/images/backgroundImg3.png'
 import About from '../components/About'
 import Service from '../components/Service'
 import Feedback from '../components/Feedback'
+import BlogSection from '../components/BlogSection'
 
 const items = [
   {
@@ -35,6 +36,7 @@ const Home = () => {
       <About />
       <Service />
       <Feedback />
+      <BlogSection />
     </div>
   )
 }
