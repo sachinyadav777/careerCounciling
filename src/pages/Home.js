@@ -7,6 +7,7 @@ import About from '../components/About'
 import Service from '../components/Service'
 import Feedback from '../components/Feedback'
 import BlogSection from '../components/BlogSection'
+import FaqSection from '../components/FaqSection'
 
 const items = [
   {
@@ -37,6 +38,7 @@ const Home = () => {
       <Service />
       <Feedback />
       <BlogSection />
+      <FaqSection />
     </div>
   )
 }
