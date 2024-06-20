@@ -11,6 +11,7 @@ const Buttons = ({text , bgColor , color , afterBg, hoverText}) => {
     textBlack: 'text-black',
     afterBgBlack: 'after:bg-black',
     afterBgWhite: 'after:bg-white',
+    afterBgPrimary: 'after:bg-primary',
     hoverTextWhite: 'hover:text-white',
     hoverTextBlack: 'hover:text-black',
 

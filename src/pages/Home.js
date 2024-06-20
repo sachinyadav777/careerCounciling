@@ -8,6 +8,7 @@ import Service from '../components/Service'
 import Feedback from '../components/Feedback'
 import BlogSection from '../components/BlogSection'
 import FaqSection from '../components/FaqSection'
+import ContactSection from '../components/ContactSection'
 
 const items = [
   {
@@ -38,6 +39,7 @@ const Home = () => {
       <Service />
       <Feedback />
       <BlogSection />
+      <ContactSection />
       <FaqSection />
     </div>
   )

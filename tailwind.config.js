@@ -12,7 +12,7 @@ module.exports = {
         text: "#727272",
         back: "#f2edeb",
         darkSlaty: "#ede7e5",
-        border: "#e3dbd8"
+        border: "#e3dbd8",
       },
       backgroundImage: {
         "back-img": 'url("/src/assets/images/about-two-shape-1.png")',
