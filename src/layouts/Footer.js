@@ -1,19 +1,11 @@
-import React, { useEffect } from "react";
-import logo from "../assets/images/footer-logo.png";
-import img from "../assets/images/footer-img.jpg";
-import { Link } from "react-router-dom";
-import {
-  faTwitter,
-  faYoutube,
-  faInstagram,
-  faFacebookF,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faEnvelope,
-  faLocationDot,
-  faClock,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react'
+import logo from '../assets/images/footer-logo.png'
+import img from '../assets/images/footer-img.jpg'
+import { Link } from 'react-router-dom'
+import { faTwitter, faYoutube, faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faLocationDot, faClock } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Footer = () => {
   return (

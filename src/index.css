@@ -4,7 +4,7 @@
 
 @layer components {
   .heading {
-    @apply text-heading text-5xl leading-[60px] font-bold mt-2;
+    @apply text-heading md:text-5xl text-4xl leading-[40px] md:leading-[60px] font-bold mt-2;
   }
 
   .sub-heading {
@@ -21,6 +21,13 @@
   .overflowHide {
     @apply overflow-hidden;
 
+  }
+  .overflow-text{
+    -webkit-line-clamp: 3;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
   }
 
 
