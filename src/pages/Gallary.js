@@ -12,10 +12,12 @@ import gallary7 from "../assets/images/gallery-page-7.jpg";
 import gallary8 from "../assets/images/gallery-page-8.jpg";
 import gallary9 from "../assets/images/gallery-page-9.jpg";
 import gallary10 from "../assets/images/gallery-page-10.jpg";
+import GallerySlider from "../components/GallerySlider";
 
 const Gallary = () => {
   const pluseClick = function () {
-    return;
+    console.log("working");
+    return <GallerySlider />;
   };
 
   return (
@@ -25,61 +27,61 @@ const Gallary = () => {
         <div className="gallary-page-container grid grid-cols-4 grid-rows-3">
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary1} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2 col-start-2 row-span-2">
             <img className=" absolute w-full h-full" src={gallary2} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary3} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary4} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary5} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary6} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary7} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2 col-span-2">
             <img className=" absolute w-full h-full" src={gallary9} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className=" gallary-effect hover:before:duration-400 relative m-2">
             <img className=" absolute h-full" src={gallary8} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
           <div className="gallary-effect hover:before:duration-400 relative m-2">
             <img className="" src={gallary8} alt="1" />
-            <div className="gallary-icon" onclick={pluseClick}>
+            <div className="gallary-icon" onClick={pluseClick}>
               <FontAwesomeIcon icon={faPlus} />
             </div>
           </div>
