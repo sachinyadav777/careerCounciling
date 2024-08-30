@@ -113,7 +113,7 @@ function Header() {
                 <Link to="">Home</Link>
               </li>
               <li className=" py-2 border-b-2 font-medium lg:py-0 lg:border-none lg:px-2 lg:mx-2">
-                <Link to="">About Us</Link>
+                <Link to="/">About Us</Link>
               </li>
               <li className=" py-2 border-b-2 font-medium lg:py-0 lg:border-none lg:px-2 lg:mx-2">
                 <Link to="">Services</Link>
@@ -147,7 +147,7 @@ function Header() {
                 <Link to="">Blog</Link>
               </li>
               <li className=" py-2 border-b-2 font-medium lg:py-0 lg:border-none lg:px-2 lg:mx-2">
-                <Link to="">Gallary</Link>
+                <Link to="/gallary">Gallary</Link>
               </li>
               <li className=" py-2 border-b-2 font-medium lg:py-0 lg:border-none lg:px-2 lg:mx-2">
                 <Link to="/Contact">Contact</Link>
