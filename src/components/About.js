@@ -1,11 +1,13 @@
 import React from 'react'
-import url from '../assets/images/arun_main_picture_for_website-removebg-preview.png'
+// import url from '../assets/images/arun_main_picture_for_website-removebg-preview.png'
+import url from '../assets/images/arunebdra-removebg-preview.png'
 import backImg from '../assets/images/about-one-shape-3.png'
 import backImg2 from '../assets/images/about-one-shape-1.png'
 import UnderlineDecoration from './UnderlineDecoration'
 import Buttons from './Buttons'
 
 const About = () => {
+
     return (
         <div className='p-[5%] font-plus lg:grid lg:grid-cols-2'>
             <div className=''>
@@ -32,10 +34,13 @@ const About = () => {
                         <h2 className='sub-heading py-2 my-2 leading-6'>Career Counceler <span className='text-primary'>+</span>Motivational Speaker <span className='text-primary'>+</span>Life Coach</h2>
                     </div>
                     <div>
-                        <p className='text py-2'>Arunendra Soni is considered to be one of the Top 5 Leadership Experts in the world as well as an internationally acclaimed bestselling author. His work is embraced by rock stars, royalty, billionaires and celebrity CEOs.</p>
+                        <p className='text py-2'>Arunendra Soni is renowned as one of India's most influential motivational speakers and career counselors. Through his dynamic and inspiring talks, he has transformed the lives of over 200,000 students and professionals. For him, this is only the beginning.
+                        </p>
                     </div>
                     <div>
-                        <p className='text py-2'>Deeply passionate about helping children in need live happier, healthier lives, Robin founded The Robin Sharma Foundation for Children (RSFC) as a registered charitable foundation. With every copy of The 5AM Club sold, a portion of royalties goes to help children with leprosy. So when you win, they win.</p>
+                        <p className='text py-2'>He holds a management degree and has extensive experience working with multinational companies in Mumbai and across India. His rigorous training and corporate experience have prepared him well for his role as a motivational trainer and career counselor, showcasing his remarkable journey of personal growth and transformation.
+
+                        </p>
                     </div>
                     <div className='pt-2 mt-2'> <Buttons text="Discover More" bgColor="primary" color="textWhite" afterBg="afterBgBlack" /> </div>
                 </div>
